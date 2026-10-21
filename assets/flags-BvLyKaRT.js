@@ -1,0 +1,1 @@
+const a=!0,e="depos.demo.v1";function s(){try{[e,"depos.auth","depos.warehouse","depos.nav","depos.barcodeType"].forEach(o=>localStorage.removeItem(o))}catch{}window.location.reload()}export{e as D,a as i,s as r};

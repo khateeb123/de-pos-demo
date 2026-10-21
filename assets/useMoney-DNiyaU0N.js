@@ -1,0 +1,1 @@
+const e="en-US",r=new Intl.NumberFormat(e,{style:"currency",currency:"USD"}),o=r.formatToParts(0).find(t=>t.type==="currency")?.value??"USD";function u(t){const n=Number(t??0);return r.format(Number.isFinite(n)?n:0)}function c(t){const n=Number(t??0);return Number.isFinite(n)?n:0}export{o as C,e as L,u as m,c as t};

@@ -1,0 +1,1 @@
+import{L as e}from"./useMoney-DNiyaU0N.js";function a(t){return t?new Date(t).toLocaleString(e,{dateStyle:"medium",timeStyle:"short"}):"—"}function n(t){return t?new Date(t).toLocaleDateString(e,{dateStyle:"medium"}):"—"}function m(t){return new Intl.NumberFormat(e).format(Number(t??0)||0)}export{m as a,a as b,n as f};
